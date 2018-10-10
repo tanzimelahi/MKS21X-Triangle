@@ -6,8 +6,9 @@ public class TriangleDriver {
 		Point b=new Point(5,0);
 		Point c=new Point(1,10);
 		Triangle shape=new Triangle(a,b,c);
-		System.out.println(shape.getPerimeter());// should print something like 24.77 if the perimeter funtion works,then
-		//the distance method also works so there is no need to test them out separately
+		System.out.println(shape.getPerimeter());
+                System.out.println(a);
+                System.out.println(shape);
 
 	}
 

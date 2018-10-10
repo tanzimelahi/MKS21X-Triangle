@@ -39,7 +39,7 @@ public class Triangle {
     	 return this.v1.distanceTo(v2)+this.v2.distanceTo(v3)+this.v3.distanceTo(v1);
      }
      public String toString() {
-    	 return "v1= "+v1.toString()+"v2 ="+v2.toString()+"v3 ="+v3.toString();
+    	 return "coordinates of v1 are "+v1.toString()+"coordinates of v2 are "+v2.toString()+"coordinates of v3 are"+v3.toString();
      }
 }
 
